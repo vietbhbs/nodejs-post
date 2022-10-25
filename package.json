@@ -1,0 +1,31 @@
+{
+  "name": "template-nodejs-modules-mongodb",
+  "version": "1.0.0",
+  "description": "Template module nodejs for mongodb",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "TienHM",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:tienhm7/template-nodejs-modules-mongodb.git",
+    "directory": "template-nodejs-modules-mongodb"
+  },
+  "dependencies": {
+    "mongoose": "^6.6.5",
+    "req-res-formatter": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "@types/express": "^4.17.14"
+  }
+}
